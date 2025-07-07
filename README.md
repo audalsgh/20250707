@@ -14,7 +14,7 @@
 - 예제 내부에서 운전 유형과 정체상황등의 자율주행 데이터를 미리 정의함.
 
 ## openCV와 matplotlib 비교
-| 용어                                       | 설명                                                                                                 |
+| openCV에서 많이 등장하는 용어                                       | 설명                                                                                                 |
 | ---------------------------------------- | -------------------------------------------------------------------------------------------------- |
 | **Mat**                                  | 이미지 데이터를 담는 OpenCV 기본 객체. 다차원 배열(matrix) 형태로 픽셀 값을 저장.                                             |
 | **BGR/RGB**                              | OpenCV 기본 컬러 순서는 BGR(Blue, Green, Red). Matplotlib 등은 RGB 순서를 쓰므로 변환이 필요함.                         |
@@ -33,6 +33,7 @@
 | **카메라 보정(Camera Calibration)**           | 왜곡 보정, 카메라 매트릭스 산출을 위해 chessboard 패턴 촬영 후 `cv2.calibrateCamera()` 사용.                              |
 | **비디오 캡처(VideoCapture)**                 | `cv2.VideoCapture()`로 카메라나 비디오 파일에서 프레임을 읽어 들이기. `read()`로 프레임 획득 후 `imshow()`로 표시.                |
 | **윈도우(Window)**                          | `cv2.namedWindow()`, `cv2.imshow()`, `cv2.waitKey()`, `cv2.destroyAllWindows()`로 영상 출력 및 키 이벤트 처리. |
+이 외에도 OpenCV는 머신러닝 통합, 딥러닝 지원(DNN 모듈), 3D 재구성, 영상 추적 등 방대한 기능을 제공함.
 
 ![image](https://github.com/user-attachments/assets/e274e111-666e-4cc5-9aa8-e6481cfad954)
 ![image](https://github.com/user-attachments/assets/6ce90bbf-d45b-4518-adc8-917ace23b728)
