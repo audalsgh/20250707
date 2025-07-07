@@ -18,7 +18,7 @@
 ![image](https://github.com/user-attachments/assets/6ce90bbf-d45b-4518-adc8-917ace23b728)
 
 OpenCV와 Matplotlib이 이미지를 다루는 방식 차이에서 비롯된 동작입니다.
-1. 배열 차원과 채널 수
+1. 배열 차원과 채널 수<br>
 그레이스케일 (2차원 배열)<br>
 shape = (높이, 너비)<br>
 채널이 1개이므로, “숫자값 하나”가 픽셀의 밝기를 바로 나타냄
@@ -27,7 +27,7 @@ shape = (높이, 너비)<br>
 shape = (높이, 너비, 3)<br>
 채널 3개(R, G, B)는 각각 빨강·초록·파랑 강도를 뜻함
 
-2. Matplotlib imshow의 동작 원리
+2. Matplotlib imshow의 동작 원리<br>
 2D 배열을 주면 픽셀값(스칼라)을 컬러맵(cmap)으로 “색깔에 매핑”<br>
 ex) cmap='jet' → 파랑에서 빨강까지 색이 변하는 그라디언트 맵
 
@@ -35,18 +35,18 @@ ex) cmap='jet' → 파랑에서 빨강까지 색이 변하는 그라디언트 �
 “이미 완성된 컬러 이미지(RGB)”로 간주하고,
 cmap 파라미터는 무시 → 입력된 R/G/B 값을 그대로 보여줌
 
-3. OpenCV(BGR) vs. Matplotlib(RGB) 컬러 순서
+3. OpenCV(BGR) vs. Matplotlib(RGB) 컬러 순서<br>
 OpenCV로 읽은 이미지는 기본적으로 BGR 순서<br>
 Matplotlib에 그대로 넘기면 색상이 뒤바뀔 수 있으므로
 
-**올바른 컬러 출력**
+**올바른 컬러 출력**<br>
 rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)<br>
 plt.imshow(rgb)
 
-4. 요약
+4. 요약<br>
 그레이스케일: 2D → 값 → 컬러맵 적용 ✔️<br>
 컬러: 3D → 이미 완성된 RGB → 컬러맵 무시 ✔️<br>
 컬러맵을 적용하고 싶다면, 3채널 이미지를 한 번 그레이스케일로 변환(또는 특정 채널만 뽑아서) 2D 배열로 만들어야 합니다.
 
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)<br>
 plt.imshow(gray, cmap='jet')
