@@ -73,7 +73,7 @@ Tip:
 
 
 ## 3. openCV와 matplotlib 비교
-**이미지를 직접 업로드하여 두 라이브러리를 사용해보는 애니메이션이 담긴 사이트**
+**이미지를 직접 업로드하여 두 라이브러리를 사용해보는 애니메이션이 담긴 사이트**<br>
 https://claude.ai/public/artifacts/39cc3eb1-891d-430e-a1d1-84538eb45522<br>
 ![image](https://github.com/user-attachments/assets/e274e111-666e-4cc5-9aa8-e6481cfad954)
 ![image](https://github.com/user-attachments/assets/6ce90bbf-d45b-4518-adc8-917ace23b728)
