@@ -1,6 +1,10 @@
 # 11일차
 
-## 머신러닝 학습 방법 비교
+## 코랩에서 openCV에 이미지 업로드하는법.
+![image](https://github.com/user-attachments/assets/5bd8f64d-0e57-4e19-b6ae-13253ee3ff01)
+
+
+## 1. 머신러닝 학습 방법 비교
 [머신러닝 학습 방법에 대해 정리](ML.md)
 
 ## tensorflow, K-means 클러스터링, openCV 라이브러리 사용 예제
@@ -16,7 +20,7 @@
 **openCV로 교통 표지판을 인식해보는 예제**
 - 표지판 이미지를 직접 코랩에 업로드하여 openCV가 사용되는 예제.
 
-## OpenCV란?
+## 2. OpenCV란?
 OpenCV(Open Source Computer Vision Library)
 
 정의
@@ -68,7 +72,7 @@ Tip:
 -> 이 외에도 OpenCV는 머신러닝 통합, 딥러닝 지원(DNN 모듈), 3D 재구성, 영상 추적 등 방대한 기능을 제공함.
 
 
-## openCV와 matplotlib 비교
+## 3. openCV와 matplotlib 비교
 ![image](https://github.com/user-attachments/assets/e274e111-666e-4cc5-9aa8-e6481cfad954)
 ![image](https://github.com/user-attachments/assets/6ce90bbf-d45b-4518-adc8-917ace23b728)
 
