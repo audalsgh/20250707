@@ -69,7 +69,7 @@ Tip:
 ![image](https://github.com/user-attachments/assets/e274e111-666e-4cc5-9aa8-e6481cfad954)
 ![image](https://github.com/user-attachments/assets/6ce90bbf-d45b-4518-adc8-917ace23b728)
 
-OpenCV와 Matplotlib이 이미지를 다루는 방식 차이에서 비롯된 동작입니다.
+OpenCV와 Matplotlib이 이미지를 다루는 방식 차이에서 비롯된 동작.
 1. 배열 차원과 채널 수<br>
 그레이스케일 (2차원 배열)<br>
 shape = (높이, 너비)<br>
