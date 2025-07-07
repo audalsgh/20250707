@@ -1,6 +1,6 @@
 # 11일차
 
-## 코랩에서 openCV에 이미지 업로드하는법.
+## *코랩에서 openCV에 이미지 업로드하는법.
 ![image](https://github.com/user-attachments/assets/5bd8f64d-0e57-4e19-b6ae-13253ee3ff01)
 
 
