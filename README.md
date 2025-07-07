@@ -107,3 +107,5 @@ plt.imshow(gray, cmap='jet')<br>
 컬러맵을 적용하고 싶다면, 3채널 이미지를 한 번 그레이스케일로 변환(또는 특정 채널만 뽑아서) 2D 배열로 만들어야 합니다.
 
 ## 4. openCV 기초 예제 5개
+[예제 코드 5개](https://github.com/audalsgh/20250707/blob/main/0707_python_openCV_basic.ipynb)
+- openCV사용이 처음이니 한줄씩 분석해가며 주석을 달자
