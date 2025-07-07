@@ -5,6 +5,7 @@
 
 ## tensorflow, K-means 클러스터링 사용 예제
 [예제 코드](0707_python_tensorflow,_K-means_클러스터링_사용_예제.ipynb)
+
 **신호등 딥러닝 예제**
 - 딥러닝 시행을 의미하는 Epoch 에포크시, ADAM을 많이 쓴다.
 - 예제코드는 정확도가 너무 낮아 실전에는 안쓰고, tensorflow와 cnn모델을 사용해보는데 의의를 둠.
