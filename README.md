@@ -3,7 +3,7 @@
 ## 머신러닝 학습 방법 비교
 [머신러닝 학습 방법에 대해 정리](ML.md)
 
-## tensorflow, K-means 클러스터링 사용 예제
+## tensorflow, K-means 클러스터링, openCV 사용 예제
 [예제 코드](0707_python_tensorflow,_K_means_클러스터링_사용_예제.ipynb)
 
 **신호등 딥러닝 예제**
@@ -12,6 +12,9 @@
 
 **비지도학습 자율주행운동 패턴 예제**
 - 예제 내부에서 운전 유형과 정체상황등의 자율주행 데이터를 미리 정의함.
+
+**openCV로 교통 표지판을 인식해보는 예제**
+- 표지판 이미지를 직접 코랩에 업로드하여 openCV가 사용되는 예제.
 
 ## OpenCV란?
 OpenCV(Open Source Computer Vision Library)
