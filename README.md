@@ -38,8 +38,8 @@ cmap 파라미터는 무시 → 입력된 R/G/B 값을 그대로 보여줌
 3. OpenCV(BGR) vs. Matplotlib(RGB) 컬러 순서<br>
 OpenCV로 읽은 이미지는 기본적으로 BGR 순서<br>
 Matplotlib에 그대로 넘기면 색상이 뒤바뀔 수 있으므로, 올바른 컬러 출력을 위해<br>
-rgb = cv2.cvtColor(bgr, cv2.COLOR_BGR2RGB)<br>
-plt.imshow(rgb)<br>
+gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)<br>
+plt.imshow(gray, cmap='jet')<br>
 코드를 추가해야함.
 
 4. 요약<br>
@@ -47,5 +47,3 @@ plt.imshow(rgb)<br>
 컬러: 3D → 이미 완성된 RGB → 컬러맵 무시 ✔️<br>
 컬러맵을 적용하고 싶다면, 3채널 이미지를 한 번 그레이스케일로 변환(또는 특정 채널만 뽑아서) 2D 배열로 만들어야 합니다.
 
-gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)<br>
-plt.imshow(gray, cmap='jet')
