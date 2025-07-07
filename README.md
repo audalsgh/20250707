@@ -3,8 +3,8 @@
 ## 머신러닝 학습 방법 비교
 [머신러닝 학습 방법에 대해 정리](ML.md)
 
-## tensorflow, K-means 클러스터링, openCV 사용 예제
-[예제 코드](0707_python_tensorflow,_K_means_클러스터링_사용_예제.ipynb)
+## tensorflow, K-means 클러스터링, openCV 라이브러리 사용 예제
+[예제 코드](0707_python_라이브러리 사용 예제.ipynb)
 
 **신호등 딥러닝 예제**
 - 딥러닝 시행을 의미하는 Epoch 에포크시, ADAM을 많이 쓴다.
