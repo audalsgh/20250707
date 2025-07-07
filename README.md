@@ -1,8 +1,7 @@
 # 11일차
 
-## *코랩에서 openCV에 이미지 업로드하는법.
-![image](https://github.com/user-attachments/assets/5bd8f64d-0e57-4e19-b6ae-13253ee3ff01)
-
+## *코랩에서 openCV에 이미지 업로드하는법 (경로복사)
+![image](https://github.com/user-attachments/assets/3d730d5a-85e6-499f-b356-5df7428da37c)
 
 ## 1. 머신러닝 학습 방법 비교
 [머신러닝 학습 방법에 대해 정리](ML.md)
