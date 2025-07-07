@@ -26,6 +26,17 @@ OpenCV(Open Source Computer Vision Library)
 - 광범위한 알고리즘: 필터(블러·샤프닝), 변환(회전·리사이즈·투시 변환), 엣지 검출, 모폴로지, 콘투어, 매칭, 머신러닝(DNN) 등
 - 실시간 처리 지향: 최적화된 C/C++ 구현으로 고속 연산 가능
 - 커뮤니티·문서: 방대한 튜토리얼과 예제, 활성 커뮤니티 지원
+  
+Python 환경에서 OpenCV 개발에 필요한 주요 라이브러리
+| 라이브러리                                 | 역할                                       | 설치 커맨드                              |
+| ------------------------------------- | ---------------------------------------- | ----------------------------------- |
+| **opencv-python**                     | OpenCV의 핵심 바이너리와 Python 바인딩              | `pip install opencv-python`         |
+| **numpy**                             | 행렬·배열 연산, 픽셀 데이터 처리                      | `pip install numpy`                 |
+| **matplotlib**                        | 이미지·그래프 시각화 (디버깅용)                       | `pip install matplotlib`            |
+| **imutils** (선택)                      | OpenCV 사용 시 자주 쓰이는 헬퍼 함수(회전·리사이즈·패딩 등)   | `pip install imutils`               |
+| **scikit-image**                      | OpenCV 보완용 영상 처리 함수(필터·세그멘테이션 등)         | `pip install scikit-image`          |
+| **dlib** / **face\_recognition** (선택) | 얼굴 인식·랜드마크 검출 등 고급 기능                    | `pip install dlib face-recognition` |
+| **opencv-contrib-python** (선택)        | OpenCV 확장 모듈(특징 검출기 SIFT/SURF, 3D 재구성 등) | `pip install opencv-contrib-python` |
 
 Tip:
 - GPU 가속(비디오 인코딩·DNN 추론 등)이 필요하면 opencv-python 대신 opencv-python-headless나 CUDA 지원 빌드를 고려.
