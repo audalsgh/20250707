@@ -34,7 +34,7 @@
 | **비디오 캡처(VideoCapture)**                 | `cv2.VideoCapture()`로 카메라나 비디오 파일에서 프레임을 읽어 들이기. `read()`로 프레임 획득 후 `imshow()`로 표시.                |
 | **윈도우(Window)**                          | `cv2.namedWindow()`, `cv2.imshow()`, `cv2.waitKey()`, `cv2.destroyAllWindows()`로 영상 출력 및 키 이벤트 처리. |
 
-이 외에도 OpenCV는 머신러닝 통합, 딥러닝 지원(DNN 모듈), 3D 재구성, 영상 추적 등 방대한 기능을 제공함.
+-> 이 외에도 OpenCV는 머신러닝 통합, 딥러닝 지원(DNN 모듈), 3D 재구성, 영상 추적 등 방대한 기능을 제공함.
 
 ![image](https://github.com/user-attachments/assets/e274e111-666e-4cc5-9aa8-e6481cfad954)
 ![image](https://github.com/user-attachments/assets/6ce90bbf-d45b-4518-adc8-917ace23b728)
